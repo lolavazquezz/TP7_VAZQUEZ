@@ -30,6 +30,14 @@ public static class BD{
         return Preguntas;
     }
     public static List<Respuesta> ObtenerRespuestas(List<Pregunta> Preguntas){
-
+        List<Respuesta> Respuestas= new List<Respuesta>();
+        using (SqlConnection db = new SqlConnection(ConnectionString)){
+            foreach (Pregunta item in Preguntas)  
+            {
+                string sql="SELECT * FROM Respuesta WHERE IdRespuesta=@item.IdPregunta";
+                Respuestas.AddRange(db.Query<Respuesta>(sql, new {@item.IdPregunta = IdRespuesta}).ToList());
+            }
+        }
+        return Respuestas;
     }
 }
