@@ -42,7 +42,17 @@ public class Juego{
         }
         return RespuestasActuales;
     }
-    public void VerificarRespuesta(int IdPregunta, int IdRespuesta){
-        
+    public bool VerificarRespuesta(int IdPregunta, int IdRespuesta){
+        bool Correcta=false;
+        foreach (Respuesta item in Respuestas)
+        {
+            if (item.IdPregunta==IdPregunta)&&(item.IdRespuesta==IdRespuesta){
+                Correcta=true;
+                PuntajeActual+=10;
+                CantidadPreguntasCorrectas+=1;
+                Preguntas.RemoveAt(0);
+            }
+        }
+        return Correcta;
     }
 }
