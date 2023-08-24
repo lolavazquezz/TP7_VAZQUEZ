@@ -26,32 +26,29 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Comenzar(string Username, int Dificultad, int Categoria)
+    public IActionResult Comenzar(string Username, int Dificultad, int Categoria, string Foto)
     {
         Juego.CargarPartida(Username, Dificultad, Categoria);
-        if (Preguntas.Count()<1) return RedirectToAction("ConfigurarJuego");
+        ViewBag.Username=Username;
+        ViewBag.Foto=Foto;
+        ViewBag.Pregunta = Juego.ObtenerProximaPregunta();
+        if (ViewBag.Pregunta == null) return RedirectToAction("ConfigurarJuego");
         else return RedirectToAction("Jugar");
     }
     
     public IActionResult Jugar()
     {
         ViewBag.PreguntaActual=Juego.ObtenerProximaPregunta();
-        if (Preguntas.Count()<1) return View("Fin");
+        if (ViewBag.PreguntaActual == null) return View("Fin");
         else {
-            ViewBag.RespuestaActual=Juego.ObtenerProximasRespuestas();
+            ViewBag.RespuestaActual=Juego.ObtenerProximasRespuestas(ViewBag.PreguntaActual.IdPregunta);
             return View("Jugar");
         }
     }
 
     [HttpPost] public IActionResult VerificarRespuesta(int IdPregunta, int IdRespuesta)
     {
-        ViewBag.Correcta=Juego.VerificarRespuesta();
+        ViewBag.Correcta=Juego.VerificarRespuesta(IdPregunta, IdRespuesta);
         return View("Respuesta");
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }

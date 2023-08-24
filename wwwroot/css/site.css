@@ -1,22 +1,196 @@
-html {
-  font-size: 14px;
+.fondo1{
+    background-image: url("/imagenes/fondo1.png"); 
 }
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.fondo2{
+    background-image: url("/imagenes/fondo2.png");
 }
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.fondo3{
+    background-image: url("/imagenes/fondo3.png");
 }
-
-html {
-  position: relative;
-  min-height: 100%;
+.fondos{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-
-body {
-  margin-bottom: 60px;
+.titulo{
+    width: 75%;
+    margin-top: 17%;
+    margin-bottom: 12%;
+}
+.tituloform{
+    margin-top: 3%;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 300%;
+    color:white;
+    text-shadow: rgba(0, 0, 0, 0.758) 1px 0 10px;
+}
+.tituloform2{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size:x-large;
+    font-weight: bold;
+}
+.inputconf{
+    margin-left: 3%;
+    width: 25%;
+}
+.categorias label {
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.categorias label:hover {
+    filter: grayscale(0);
+}
+.categorias input[type="radio"]:checked + label {
+    filter: grayscale(0);
+}
+.categorias p{
+    margin-top: 10%;
+    font-weight: bold;
+}
+.categorias:not(p){
+    display: flex;
+    justify-content: space-around;
+}
+.categorias img{
+    width: 80%;
+}
+.categorias{
+    margin-top: 2%;
+}.correcto{
+    background-image: url("/imagenes/correcto.png");
+}
+.incorrecto{
+    background-image: url("/imagenes/incorrecto.png");
+}
+.respuestas{
+    display: flex;
+    justify-content: space-around;
+}
+.respuestas label{
+    width: 40%;
+    margin-bottom: 4%;
+    box-shadow:  0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.pregunta h3{
+    width: 40%;
+    text-align: center;
+}
+.pregunta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+.numero{
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bold;
+}
+.contenido{
+    text-align: center;
+}
+.formulario{
+    width: 19%;
+    margin-bottom: 1%;
+    margin-left: 1.5%;
+}
+.respuesta p{
+    margin-bottom: 5%;
+}
+.respuesta p , .fin h1, .resultado p{
+    margin-top: 3%;
+    font-size:600%;
+    font-weight: bold;
+    color:white;
+    text-shadow: rgba(0, 0, 0, 0.758) 1px 0 10px;
+}
+.respuesta img{
+    margin-top: 10%;
+    width: 17%;
+    margin-bottom: 1%;
+}
+.resultado img{
+    width: 15%;
+    margin-bottom: 1%;
+}
+.resultado div{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.fin a{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.fin img:not(.puntos img){
+    width: 20%;
+}
+.puntos img{
+    width: 10%;
+    align-self: center;
+}
+.puntos{
+    display: inline-flex;
+    justify-content: center;
+}
+.fin h4{
+    font-size:400%;
+    font-weight: bold;
+}
+.fin p{
+    margin-bottom: 0;
+    font-size:200%;
+    font-weight: bold;
+}
+.boton{
+    margin-bottom: 1%;
+}
+.nav img{
+    width: 170px;
+}
+.circle-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center; 
+    background-image: url("/imagenes/usuario");
+    margin: 6px;
+    margin-right: 8px;
+}
+.usuario{
+    display: inline-flex;
+    background-color: whitesmoke;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.usuario p{
+    align-self: center;
+    margin: 0;
+    margin-right: 6px;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+}
+.usuariopuntaje {
+    display: inline-flex;
+    align-items: center;
+    margin: 15px;
+}
+.puntaje img{
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    margin-left: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.puntaje p{
+    margin:0;
+    margin-left: 6px;
+    align-self: center;
 }

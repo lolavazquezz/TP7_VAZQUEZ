@@ -1,0 +1,38 @@
+    <title>Configuración - PreguntadORT</title>
+  <section class="fondo2 fondos">
+    <h1 class="tituloform">CONFIGURACIÓN DEL JUEGO</h1>
+    <!-- form -->
+    <form method="get" action='@Url.Action("Comenzar")'>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label tituloform2">Elija un nombre de usuario</label>
+        <input type="text" class="form-control inputconf" id="formGroupExampleInput" placeholder="Username" required>
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label tituloform2">Ingrese URL para agregar una foto de perfil (opcional)</label>
+        <input type="text" class="form-control inputconf" id="formGroupExampleInput">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label tituloform2">Seleccione una dificultad</label>
+        <select class="form-select inputconf" id="specificSizeSelect">
+          <option selected value="1">Fácil</option>
+          <option value="2">Medio</option>
+          <option value="3">Difícil</option>
+          <option value="-1">Todas</option>
+        </select>
+      </div>
+      <fieldset>
+        <p class="tituloform2">Toque una imagen para escoger una categoría</p>
+        <section class="contenido"> 
+          <div class="categorias d-flex align-items-end">
+            <input type="radio" class="btn-check" name="categoria" value="-1" checked>
+            <label for="todas"><img src="~/imagenes/corona.png"><p>TODAS</p></label>
+            @foreach (Categoria item in ViewBag.Categorias)
+            {
+                <input type="radio" class="btn-check" name="@item.Nombre" value="@item.IdCategoria">
+                <label for="@item.IdCategoria"><img src="/imagenes/@item.Foto"><p>@item.Nombre</p></label>
+            }
+          <br><input type="submit" value="Jugar" class="btn btn-outline-dark">
+        </section>
+    </fieldset>
+    </form>
+</section>

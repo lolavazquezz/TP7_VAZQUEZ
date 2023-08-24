@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP7_VAZQUEZ.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TP7_VAZQUEZ.bundle.scp.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\PreguntadORT.png",
+      "PackagePath": "staticwebassets\\imagenes\\PreguntadORT.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\Thumbs.db",
+      "PackagePath": "staticwebassets\\imagenes\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\arte.png",
+      "PackagePath": "staticwebassets\\imagenes\\arte.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\ciencia.png",
+      "PackagePath": "staticwebassets\\imagenes\\ciencia.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\corona.png",
+      "PackagePath": "staticwebassets\\imagenes\\corona.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\correcto.png",
+      "PackagePath": "staticwebassets\\imagenes\\correcto.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\deportes.png",
+      "PackagePath": "staticwebassets\\imagenes\\deportes.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\entretenimiento.png",
+      "PackagePath": "staticwebassets\\imagenes\\entretenimiento.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\estrella.png",
+      "PackagePath": "staticwebassets\\imagenes\\estrella.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\fondo1.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\fondo1.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\fondo1.png",
+      "PackagePath": "staticwebassets\\imagenes\\fondo1.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\fondo2.png",
+      "PackagePath": "staticwebassets\\imagenes\\fondo2.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\fondo3.png",
+      "PackagePath": "staticwebassets\\imagenes\\fondo3.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\geografia.png",
+      "PackagePath": "staticwebassets\\imagenes\\geografia.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\historia.png",
+      "PackagePath": "staticwebassets\\imagenes\\historia.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\incorrecto.png",
+      "PackagePath": "staticwebassets\\imagenes\\incorrecto.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\incorrectoicon.png",
+      "PackagePath": "staticwebassets\\imagenes\\incorrectoicon.png"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\imagenes\\usuario.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\usuario.jpeg"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TP7_VAZQUEZ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TP7_VAZQUEZ.props",
+      "PackagePath": "build\\TP7_VAZQUEZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TP7_VAZQUEZ.props",
+      "PackagePath": "buildMultiTargeting\\TP7_VAZQUEZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TP7_VAZQUEZ.props",
+      "PackagePath": "buildTransitive\\TP7_VAZQUEZ.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

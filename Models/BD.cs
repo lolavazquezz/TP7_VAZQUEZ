@@ -2,7 +2,7 @@ using System.Data.SqlClient;
 using Dapper;
 namespace TP7_VAZQUEZ.Models;
 public static class BD{
-    private static string ConnectionString= @"Server=localhost;DataBase=elecciones;Trusted_Connection=True;";
+    private static string ConnectionString= @"Server=localhost;DataBase=PreguntadORT;Trusted_Connection=True;";
     public static List<Categoria> ObtenerCategorias(){
         List<Categoria> Categorias= new List<Categoria>();
         using (SqlConnection db = new SqlConnection(ConnectionString)){
@@ -34,8 +34,8 @@ public static class BD{
         using (SqlConnection db = new SqlConnection(ConnectionString)){
             foreach (Pregunta item in Preguntas)  
             {
-                string sql="SELECT * FROM Respuesta WHERE IdRespuesta=@item.IdPregunta";
-                Respuestas.AddRange(db.Query<Respuesta>(sql, new {@item.IdPregunta = IdRespuesta}).ToList());
+                string sql="SELECT * FROM Respuesta WHERE IdPregunta=@pIdPregunta";
+                Respuestas.AddRange(db.Query<Respuesta>(sql, new {@pIdPregunta = item.IdPregunta}).ToList());
             }
         }
         return Respuestas;
