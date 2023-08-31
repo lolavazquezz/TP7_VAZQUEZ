@@ -36,14 +36,14 @@
     width: 25%;
 }
 .categorias label {
-    cursor: pointer;
-    filter: grayscale(100%);
+  cursor: pointer;
+  filter: grayscale(100%);
 }
 .categorias label:hover {
-    filter: grayscale(0);
+  filter: grayscale(0);
 }
 .categorias input[type="radio"]:checked + label {
-    filter: grayscale(0);
+  filter: grayscale(0);
 }
 .categorias p{
     margin-top: 10%;

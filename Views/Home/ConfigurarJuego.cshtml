@@ -8,10 +8,6 @@
         <input type="text" class="form-control inputconf" id="formGroupExampleInput" placeholder="Username" required>
       </div>
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label tituloform2">Ingrese URL para agregar una foto de perfil (opcional)</label>
-        <input type="text" class="form-control inputconf" id="formGroupExampleInput">
-      </div>
-      <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label tituloform2">Seleccione una dificultad</label>
         <select class="form-select inputconf" id="specificSizeSelect">
           <option selected value="1">Fácil</option>
@@ -28,9 +24,10 @@
             <label for="todas"><img src="~/imagenes/corona.png"><p>TODAS</p></label>
             @foreach (Categoria item in ViewBag.Categorias)
             {
-                <input type="radio" class="btn-check" name="@item.Nombre" value="@item.IdCategoria">
-                <label for="@item.IdCategoria"><img src="/imagenes/@item.Foto"><p>@item.Nombre</p></label>
+                <input type="radio" class="btn-check" name="categoria" value="@item.Nombre" id="@item.Nombre" required>
+                <label for="@item.Nombre"><img src="/imagenes/@item.Foto"><p>@item.Nombre</p></label>
             }
+            </div>
           <br><input type="submit" value="Jugar" class="btn btn-outline-dark">
         </section>
     </fieldset>
