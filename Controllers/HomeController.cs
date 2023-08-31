@@ -26,11 +26,10 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Comenzar(string Username, int Dificultad, int Categoria, string Foto)
+    public IActionResult Comenzar(string Username, int Dificultad, int Categoria)
     {
         Juego.CargarPartida(Username, Dificultad, Categoria);
         ViewBag.Username=Username;
-        ViewBag.Foto=Foto;
         ViewBag.Pregunta = Juego.ObtenerProximaPregunta();
         if (ViewBag.Pregunta == null) return RedirectToAction("ConfigurarJuego");
         else return RedirectToAction("Jugar");

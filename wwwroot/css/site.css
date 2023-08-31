@@ -18,7 +18,7 @@
     margin-bottom: 12%;
 }
 .tituloform{
-    margin-top: 3%;
+    padding-top: 2%;
     margin-left: 1%;
     font-weight: bold;
     font-size: 300%;
@@ -55,9 +55,11 @@
 }
 .categorias img{
     width: 80%;
+
 }
 .categorias{
     margin-top: 2%;
+    margin-bottom: 2%;
 }.correcto{
     background-image: url("/imagenes/correcto.png");
 }
@@ -83,11 +85,6 @@
     justify-content: center;
     margin-bottom: 8%;
     margin-top: 5%;
-}
-.numero{
-    margin-top: 5%;
-    font-size: larger;
-    font-weight: bold;
 }
 .contenido{
     text-align: center;
@@ -143,9 +140,6 @@
     margin-bottom: 0;
     font-size:200%;
     font-weight: bold;
-}
-.boton{
-    margin-bottom: 1%;
 }
 .nav img{
     width: 170px;

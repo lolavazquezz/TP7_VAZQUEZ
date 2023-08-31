@@ -19,13 +19,13 @@ public static class BD{
         }
         return Dificultades;
     }
-    public static List<Pregunta> ObtenerPreguntas(int Dificultad, int Categoria){
+    public static List<Pregunta> ObtenerPreguntas(int IdDificultad, int IdCategoria){
         List<Pregunta> Preguntas= new List<Pregunta>();
         using (SqlConnection db = new SqlConnection(ConnectionString)){
             string sql = "SELECT * FROM Preguntas ";
-            if (Dificultad!=-1)  sql += "where Dificultad=@pDificultad";
-            if (Categoria!=-1)  sql += "and Categoria=@pCategoria";
-            Preguntas = db.Query<Pregunta>(sql, new {@pDificultad = Dificultad, @pCategoria = Categoria}).ToList();
+            if (IdDificultad!=-1)  sql += "where IdDificultad=@pDificultad";
+            if (IdCategoria!=-1)  sql += " and IdCategoria=@pCategoria";
+            Preguntas = db.Query<Pregunta>(sql, new {pDificultad = IdDificultad, pCategoria = IdCategoria}).ToList();
         }
         return Preguntas;
     }
@@ -34,7 +34,7 @@ public static class BD{
         using (SqlConnection db = new SqlConnection(ConnectionString)){
             foreach (Pregunta item in Preguntas)  
             {
-                string sql="SELECT * FROM Respuesta WHERE IdPregunta=@pIdPregunta";
+                string sql="SELECT * FROM Respuestas WHERE IdPregunta=@pIdPregunta";
                 Respuestas.AddRange(db.Query<Respuesta>(sql, new {@pIdPregunta = item.IdPregunta}).ToList());
             }
         }

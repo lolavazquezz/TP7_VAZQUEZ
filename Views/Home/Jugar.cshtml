@@ -1,0 +1,26 @@
+<title>Jugar - PreguntadORT</title>
+  <section class="fondo3 fondos">
+    <!-- usuario -->
+    <section class="usuariopuntaje">
+      <div class="usuario">
+        <div class="circle-container"></div>
+        <p>@ViewBag.Username</p>
+      </div>
+      <div class="puntaje usuario">
+        <p>@ViewBag.PuntajeActual</p>
+        <img src="imagenes/estrella.png">
+      </div>
+    </section>
+    <!-- fin usuario -->
+
+    <div class="pregunta"><h3>@ViewBag.PreguntaActual</h3></div>
+    <form method="post" action="Respuesta.html" required>
+      <div class="respuestas">
+            @foreach (Respuesta item in ViewBag.RespuestaActual)
+            {
+              <input type="radio" class="btn-check" name="respuesta" value="@item.IdRespuesta" id="@item.Contenido" required>
+              <label for="@item.Contenido"><p>@item.Contenido</p></label>
+            }
+      <div class="contenido"><input type="submit" value="Verificar" class="btn btn-outline-dark"></div>
+    </form>
+  </section>
