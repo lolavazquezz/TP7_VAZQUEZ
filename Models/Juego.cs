@@ -33,7 +33,7 @@ public class Juego{
             PreguntaActual=Preguntas[0];
             return PreguntaActual;
         }
-        return null;
+        else return null;
     }
     public static List<Respuesta> ObtenerProximasRespuestas(int IdPregunta){
         foreach (Respuesta item in Respuestas)
@@ -56,5 +56,8 @@ public class Juego{
             }
         }
         return Correcta;
+    }
+    public static int ObtenerPuntaje(){
+        return PuntajeActual;
     }
 }

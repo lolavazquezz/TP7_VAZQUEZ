@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y4vNB0whE9z18FbvOcPxY65D36AzmO1VuKZGcUJ4Q5I=",
+  "Hash": "L3B7fJRswWCm5j3N7yj+OiDwZMqGCgUtxRrbPm+etUI=",
   "Source": "TP7_VAZQUEZ",
   "BasePath": "_content/TP7_VAZQUEZ",
   "Mode": "Default",
@@ -1392,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\PreguntadORT.sql",
+      "SourceId": "TP7_VAZQUEZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\",
+      "BasePath": "_content/TP7_VAZQUEZ",
+      "RelativePath": "PreguntadORT.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PreguntadORT.sql"
     }
   ]
 }

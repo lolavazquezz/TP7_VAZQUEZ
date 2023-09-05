@@ -23,8 +23,10 @@ public static class BD{
         List<Pregunta> Preguntas= new List<Pregunta>();
         using (SqlConnection db = new SqlConnection(ConnectionString)){
             string sql = "SELECT * FROM Preguntas ";
-            if (IdDificultad!=-1)  sql += "where IdDificultad=@pDificultad";
-            if (IdCategoria!=-1)  sql += " and IdCategoria=@pCategoria";
+            if(IdDificultad>-1){
+                if (IdDificultad!=-1)  sql += "where IdDificultad=@pDificultad";
+                if (IdCategoria!=-1)  sql += " and IdCategoria=@pCategoria";
+            }
             Preguntas = db.Query<Pregunta>(sql, new {pDificultad = IdDificultad, pCategoria = IdCategoria}).ToList();
         }
         return Preguntas;

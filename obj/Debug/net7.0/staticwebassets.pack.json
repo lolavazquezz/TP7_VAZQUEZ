@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TP7_VAZQUEZ.bundle.scp.css"
     },
     {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\PreguntadORT.sql",
+      "PackagePath": "staticwebassets\\PreguntadORT.sql"
+    },
+    {
       "Id": "Z:\\2023\\PROGRAMACION\\TP7_VAZQUEZ\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
